@@ -398,7 +398,7 @@
       <script>
         var data;          
         $(function(){
-           genResume()
+         
            data = {
   "personal": {
     "fullName": "Ajay Dodiya",
@@ -676,6 +676,7 @@
     }
   ]
 }
+genResume()
         })
         function genResume() { 
             $(document).find('[data-name]').text(data.personal.fullName)

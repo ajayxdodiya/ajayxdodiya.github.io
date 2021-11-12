@@ -16,11 +16,11 @@ data = {
     "contact": {
       "mobile": "+91 9179535577",
       "email": "xdodiya@gmail.com",
-      "website": "www.ajaydodiya.tech",
+      "website": "https://ajay-dodiya.github.io/",
       "location": "Indore, MP",
       "skype" : "https://join.skype.com/invite/udlIYfP11Tpy",
       "instagram" : "https://instagram.com/adxux",
-      "github" : "https://github.com/adxux",
+      "github" : "https://github.com/ajay-dodiya",
       "linkedin" : "https://linkedin.com/in/adxux",
       "whatsapp" : "https://wa.me/919179535577",
       "address": {

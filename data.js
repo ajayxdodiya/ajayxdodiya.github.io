@@ -11,7 +11,7 @@ data = {
       "about": [ "I am a creative and enthusiastic Front end developer with a strong technical skill-set, attention to detail, and",
           " of experience. residing in Indore, India. Looking forward for great opportunities. I believe good research, astonishing concept. fresh mind, and lot of hard work leads to a successful and appealing website, And that's what I do. I regularly strengthened myself with latest design trends and latest technologies to be ahead in website industry. Always Eager to make exceptional websites."
       ],
-      "about_web" : "I design and code beautifully simple things, and I love what I do. I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations. What would you do if you had a software expert available at your fingertips?"
+      "about_web" : "I design and code beautifully simple things, and I love what I do. I am passionate about building excellent software that improves the lives of those around me. I specialize in creating software for clients ranging from individuals and small-businesses all the way to large enterprise corporations."
     },
     "contact": {
       "mobile": "+91 9179535577",

@@ -196,6 +196,8 @@
             color: #fff;
             fill: #fff;
         }
+      .ff-0 {
+        display:none}
     </style>
   </head>
   <body>
@@ -268,7 +270,7 @@
                 h+= `
                     <li>
                         <div class="li-title">`+v.title+`</div>
-                        <div class="li-desc">`+v.university+` - `+v.passingYear+` (`+Math.floor(v.percentage)+`%)</div>
+                        <div class="li-desc">`+v.university+` - `+v.passingYear+` <span class="ff-`+Math.floor(v.percentage)+`">(`+Math.floor(v.percentage)+`%)</span></div>
                     </li>`;
             })
             return h;

@@ -16,7 +16,7 @@ data = {
     "contact": {
       "mobile": "+91 9179535577",
       "email": "xdodiya@gmail.com",
-      "website": "https://ajay-dodiya.github.io/",
+      "website": "https://ajaydodiya.com/",
       "location": "Indore, MP",
       "skype" : "https://join.skype.com/invite/udlIYfP11Tpy",
       "github" : "https://github.com/ajay-dodiya",

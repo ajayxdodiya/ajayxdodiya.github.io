@@ -402,7 +402,7 @@
         });
         function genResume() { 
             $(document).find('[data-name]').text(data.personal.fullName)
-            $(document).find('[data-occupation]').text(data.personal.occupation)
+            $(document).find('[data-occupation]').text(data.personal.occupation.split(',')[0])
             $(document).find('[data-dob]').text(data.personal.dob)
             $(document).find('[data-phone]').text(data.contact.mobile)
             $(document).find('[data-location]').text(data.contact.location)

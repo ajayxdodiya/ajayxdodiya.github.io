@@ -63,7 +63,9 @@ data = {
       { "title" : "CSS, CSS3, SCSS, Bootstrap", "percentage" : 90 },
       { "title" : "JavaScript, jQuery, jQuery UI", "percentage" : 80 },
       { "title" : "Angular, Typescript", "percentage" : 75 },
-      { "title" : "Git, FTP, SFTP, SSH", "percentage" : 70 }
+      { "title" : "Php, Laravel", "percentage" : 65 },
+      { "title" : "Git, FTP, SFTP, SSH", "percentage" : 70 },
+      { "title" : "Adobe Photoshop, Adobe XD", "percentage" : 60 }
     ],
     "strength": [
       "Executed lots of Projects on my own",

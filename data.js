@@ -4,7 +4,7 @@ data = {
       "father": "Mr. Dhara Singh Dodiya",
       "mother": "Mrs. Narmda Bai Dodiya",
       "dob": "22 Aug, 1995",
-      "occupation": "Web Developer",
+      "occupation": "Web Developer, Web Designer, UI Developer",
       "maritalstatus": "Unmarried",
       "nationality": "Indian",
       "languages": "Hindi",

@@ -19,7 +19,6 @@ data = {
       "website": "https://ajay-dodiya.github.io/",
       "location": "Indore, MP",
       "skype" : "https://join.skype.com/invite/udlIYfP11Tpy",
-      "instagram" : "https://instagram.com/adxux",
       "github" : "https://github.com/ajay-dodiya",
       "linkedin" : "https://linkedin.com/in/adxux",
       "whatsapp" : "https://wa.me/919179535577",

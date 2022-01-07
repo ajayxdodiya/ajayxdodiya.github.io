@@ -442,7 +442,10 @@
             $(document).find('[data-social-email]').attr('href','mailto:'+data.contact.email)
             $(document).find('[data-about]').append(data.personal.about[0])      
             $(document).find('[data-about]').append(' '+getAgeinMonths(data.work[(data.work.length-1)].date.joining)+' ')      
-            $(document).find('[data-about]').append(data.personal.about[1])      
+            $(document).find('[data-about]').append(data.personal.about[1])   
+           $.getJSON("https://api.countapi.xyz/hit/ajaydodiya.com/visits", function(response) {
+             console.log('visits', response.value);
+            });
         }
     </script>
       <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

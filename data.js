@@ -52,7 +52,7 @@ data = {
       {
         "title": "Master of Computer Application",
         "type": "ug",
-        "university": "Dr. A. P. J. Abdul Kalam University",
+        "university": "SAGE University, Indore",
         "passingYear": 'Pursuing',
         "percentage": 0
       },

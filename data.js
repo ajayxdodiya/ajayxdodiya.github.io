@@ -51,8 +51,8 @@ data = {
       },
       {
         "title": "Master of Computer Application",
-        "type": "ug",
-        "university": "SAGE University, Indore",
+        "type": "pg",
+        "university": "Dr. A.P.J. ABDUL KALAM UNIVERSITY, Indore",
         "passingYear": 'Pursuing',
         "percentage": 0
       },

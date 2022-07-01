@@ -139,6 +139,7 @@
          // 7 isSequel
          // 8 isSequelTitle
          // 9 epTitle
+         // 10 seasonTitle
          var globalData;
          var globalDataJSON = [];
          var sortedData = [];
@@ -174,7 +175,8 @@
                        episode: value2[2],
                        link: value2[4],
                        year: value2[6],
-                       epTitle: value2[9]
+                       epTitle: value2[9],
+                       seasonTitle: value2[10]
                      })
                    }
                    if(value1.type=='Movie') {     
@@ -273,9 +275,9 @@
                           
                           
                             data.season.forEach(function(data2, index2){
-                              html += `<p class="text-center">Season `+data2.season+` - `+data2.data[0].year+`</p>`;
+                              html += `<p class="text-center">Season `+data2.season+` - `+data2.data[0].year+` - `+data2.data[0].seasonTitle+`</p>`;
                               data2.data.forEach(function(data3, index3){
-                                html += `<p><a class="btn btn-success col-12" href="`+data3.link+`"><i class="fa fa-download"></i>  S`+data2.season+` Episode `+data3.episode+` - `+data3.epTitle+` </a></p>`
+                                html += `<p><a class="btn btn-success col-12" href="`+data3.link+`"><i class="fa fa-download"></i>  S`+data2.season+`: Episode `+data3.episode+` `+(data3.epTitle ? '-' + data3.epTitle : '')+` </a></p>`
                               })
                             })
                                                     

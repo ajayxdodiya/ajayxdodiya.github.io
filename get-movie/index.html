@@ -1,0 +1,35 @@
+
+<!doctype html>
+<html lang="en">
+   <head>
+      <meta charset="UTF-8">
+      <meta http-equiv="X-UA-Compatible" content="IE=edge">
+      <meta name="viewport" content="width=device-width, initial-scale=1.0">
+      <title>Movies</title>
+      <meta name="description" content="Download movies in single click. Without any annoying advertisement." />
+      <meta property="og:title" content="Download movies in single click. Without any annoying advertisement." />
+      <meta property="og:url" content="https://ajaydodiya.com/movies/" />
+      <meta property="og:description" content="AdxMovies" />
+      <meta property="og:image" content="https://ajaydodiya.com/movies/banner.png" />    
+      <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  
+   </head>
+   <body>
+    <script src="data.js"></script>
+    <script>
+      $(document).ready(function(){
+        console.log(data)
+        var urlParams = new URLSearchParams(window.location.search);
+        var movieName = urlParams.get('m');
+        if (movieName && data[movieName]) {
+          if(data[movieName]) {
+            window.location.href = data[movieName]
+          } else {
+            window.location.href = 'https://ajaydodiya.com'
+          }
+        } else {
+          window.location.href = 'https://ajaydodiya.com'
+        }
+      })
+    </script>
+   </body>
+</html>

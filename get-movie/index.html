@@ -22,7 +22,7 @@
         var movieName = urlParams.get('m');
         if (movieName && data[movieName]) {
           if(data[movieName]) {
-            window.location.href = data[movieName]
+             window.location.href = 'https://drive.google.com/u/2/uc?id='+data[movieName]+'&export=download'
           } else {
             window.location.href = 'https://ajaydodiya.com'
           }

@@ -8,27 +8,36 @@
       <title>Movies</title>
       <meta name="description" content="Download movies in single click. Without any annoying advertisement." />
       <meta property="og:title" content="Download movies in single click. Without any annoying advertisement." />
-      <meta property="og:url" content="https://ajaydodiya.com/get-movie/" />
+      <meta property="og:url" content="https://ajaydodiya.com/movies/" />
       <meta property="og:description" content="AdxMovies" />
-      <meta property="og:image" content="https://ajaydodiya.com/get-movie/banner.png" />    
+      <meta property="og:image" content="https://ajaydodiya.com/movies/banner.png" />    
       <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>  
    </head>
    <body>
-    <script src="data.js"></script>
     <script>
       $(document).ready(function(){
-        console.log(data)
-        var urlParams = new URLSearchParams(window.location.search);
-        var movieName = urlParams.get('m');
-        if (movieName && data[movieName]) {
-          if(data[movieName]) {
-             window.location.href = 'https://drive.google.com/u/2/uc?id='+data[movieName]+'&export=download'
-          } else {
-            window.location.href = 'https://ajaydodiya.com'
-          }
-        } else {
-          window.location.href = 'https://ajaydodiya.com'
-        }
+        var movies = [];
+        $.ajax({
+            url: `https://www.googleapis.com/drive/v2/files?q='1hDyFqpWVPRZWuRF9eJutC0SK9JT1AKJm'+in+parents&key=AIzaSyDUIf2k3Hy22eqYvFPoNEaqMsRKzp6NVL8`,
+            success: function(response){
+              var items = response.items;
+              $(items).each(function(index, item){
+                var name = item.title.split('.')[0]
+                movies[name] = item.id
+              })
+              var urlParams = new URLSearchParams(window.location.search);
+              var movieName = urlParams.get('m');
+              if (movieName && movies[movieName]) {
+                if(movies[movieName]) {
+                  window.location.href = 'https://drive.google.com/u/2/uc?id='+movies[movieName]+'&export=download'
+                } else {
+                  window.location.href = 'https://ajaydodiya.com'
+                }
+              } else {
+                window.location.href = 'https://ajaydodiya.com'
+              }
+            }
+        });
       })
     </script>
    </body>

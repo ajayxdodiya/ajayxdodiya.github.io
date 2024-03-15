@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta name="HandheldFriendly" content="true" />
+    <title>होली निमंत्रण 🎉🪅🎨🎊🔫</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Alkatra:wght@400..700&family=Baloo+2:wght@400..800&family=Mukta:wght@200..800&family=Ranga:wght@400;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            user-select: none;
+        }
+        body {
+            background-color: #6b22a2;
+            background-image: url('bg.jpg');
+            background-repeat: no-repeat;
+            background-size: 100vw 100vh;
+            color: #fff;
+            text-align: center;
+            overflow: hidden;
+        }
+        html {
+            overflow: hidden;
+        }
+        .tbg {
+            background-image: url('tbg.png');
+            background-repeat: no-repeat;
+            background-size: contain;
+            color: #6b22a2;
+            text-align: center;            
+            display: flex;
+            width: 60vw;
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+            background-position: center;
+        }
+        .ranga {
+            font-family: "Ranga", cursive;       
+            font-weight: 600;     
+        }
+        .mukta {
+            font-family: "Mukta", sans-serif;
+            font-weight: 600;
+        }
+        .alka {
+            font-family: "Alkatra", system-ui;
+        }
+        .balu {
+            font-family: "Baloo 2", system-ui;
+        }
+        .card {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            flex-direction: column;
+            height: 100%;
+            padding: 0 30px;
+        }
+        h1 {
+            font-size: 30px;
+        }
+        p {
+            font-size: 25px;
+        }
+    </style>
+</head>
+<body>
+    <script>
+      function play() {
+        var audio = document.getElementById("audio");
+        audio.play();
+      }
+      
+    </script>
+
+    <input type="button" id="P" value="PLAY" onclick="play()" style="opacity: 0;
+    height: 100vh;
+    width: 100vw;
+    z-index: 99;left:0;right:0;
+    position: fixed;">
+    <audio id="audio" src="holi.mp3"></audio>
+
+    <div class="card">
+       
+        <br>
+        <br>
+        <br>
+        <br>
+        <h1 style="font-size: 25px; font-weight: 600;" class="balu animate__animated animate__backInDown">प्रिय <span id="r"></span> ❤️</h1>
+        <br>        
+        <h1 style="font-size: 18px;" class="ranga animate__animated animate__backInUp">7 वर्षो से निरन्तर आयोजित हो रहे.. <br> इस मिलन समारोह में आप सादर आमंत्रित है...</h1>
+        <br>
+        <h1 style="font-size: 80px;margin-bottom: -20px;position: relative;" class="alka animate__animated animate__pulse animate__infinite">
+            <span>होली </span>
+            <img src="fl.png" style="position: absolute;width: 50px;right: -55px;top: 0;" alt="">
+        </h1>
+        <div style="display: flex">
+        <p class="alka animate__animated animate__slideInLeft"  style="width: 100%"><span>मिलन</span></p> &nbsp;&nbsp;
+        <p class="alka animate__animated animate__slideInRight"  style="width: 100%"><span>समारोह</span></p>
+        </div>
+        <br>
+        <h1  style="font-size: 25px;" class="alka tbg animate__animated animate__zoomIn">सोमवार, 25 मार्च </h1>
+        <br>
+        <p  style="font-size: 15px;"class="ranga animate__animated animate__backInRight">स्थान: अजय धारासिंह जी डोडिया के खेत पर </p>
+        <br>
+        <p>🤍</p>
+        <br>
+        <p  style="font-size: 16px;font-weight: 600;"class="ranga animate__animated animate__flip">आपकी प्रतीक्षा में रतनपुरियंस मित्र मंडली </p>
+        <script>  
+          
+            let fragmentIdentifier = window.location.hash;
+            let cleanFragmentIdentifier = fragmentIdentifier.substring(1); // Remove the '#'                    
+            let r = document.getElementById('r')
+            let decodedText = decodeURIComponent(cleanFragmentIdentifier);
+            decodedText = decodedText.replaceAll('_',' ')
+            decodedText = decodedText.replaceAll('-',' ')
+            r.innerHTML = decodedText
+        </script>
+    </div>
+    
+</body>
+</html>

@@ -1,0 +1,463 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+      <meta charset="utf-8">
+      <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+      <title>Ajay Dodiya | Web Developer</title>
+      <meta content="" name="description">
+      <meta content="" name="keywords">
+      <meta property="og:title" content="Ajay Dodiya - Software Engineer" />
+    <meta property="og:description" content="Software Engineer from Indore, India" />
+    <meta property="og:image" content="https://ajaydodiya.tech/assets/img/profile-img.jpg" />
+      <link href="assets/img/favicon.png" rel="icon">
+      <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+      <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+      <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+      <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+      <link href="assets/vendor/boxicons/css/boxicons.min.css" rel="stylesheet">
+      <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+      <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+      <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+   </head>
+   <body>
+      <button type="button" class="mobile-nav-toggle d-xl-none"><i class="icofont-navigation-menu"></i></button>
+      <header id="header" class="d-flex flex-column justify-content-center">
+         <nav class="nav-menu">
+            <ul>
+               <li class="active"><a href="#hero"><i class="bx bx-home"></i> <span>Home</span></a></li>
+               <li><a href="#about"><i class="bx bx-user"></i> <span>About</span></a></li>
+               <li><a href="#skills"><i class="bx bx-server"></i> <span>Skills</span></a></li>
+               <li><a href="#resume"><i class="bx bx-file-blank"></i> <span>Resume</span></a></li>
+               <li><a href="#portfolio"><i class="bx bx-book-content"></i> <span>Portfolio</span></a></li>
+            </ul>
+         </nav>
+      </header>
+      <section id="hero" class="d-flex flex-column justify-content-center">
+         <div class="container" data-aos="zoom-in" data-aos-delay="100">
+            <h1 data-name></h1>
+            <p><span class="typed" data-typed-items></span></p>
+            <div class="social-links">
+              <a target="_blank" data-social-email href="#" class="email"><i class="bx bx-envelope"></i></a>
+              <!--<a target="_blank" data-social-call href="#" class="call"><i class="bx bx-phone-call"></i></a>-->
+              <!--<a target="_blank" data-social-skype href="#" class="skype"><i class="bx bxl-skype"></i></a>-->
+               <a target="_blank" data-social-instagram href="#" class="instagram"><i class="bx bxl-instagram"></i></a>   
+               <a target="_blank" data-social-github href="#" class="github"><i class="bx bxl-github"></i></a>       
+              <a target="_blank" data-social-linkedin href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+               <!--<a target="_blank" data-social-whatsapp href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a> -->
+            </div>
+         </div>
+      </section>
+      <main id="main">
+         <section id="about" class="about">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>About</h2>
+               </div>
+               <div class="row">
+                  <div class="col-lg-4">
+                     <img src="assets/img/profile-img.jpg" class="img-fluid pf-img" alt="">
+                  </div>
+                  <div class="col-lg-8 pt-4 pt-lg-0 content">
+                     <h3 data-occupation></h3>
+                     
+                      <p data-tagline></p>
+                     <div class="row">
+                        <div class="col-lg-6">
+                           <ul>
+                              <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> <span data-dob></span></li>
+                              <!--<li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> <span data-phone></span></li>-->
+                              <li><i class="icofont-rounded-right"></i> <strong>City:</strong> <span data-location></span></li>
+                           </ul>
+                        </div>
+                        <div class="col-lg-6">
+                           <ul>
+                              <li><i class="icofont-rounded-right"></i> <strong>Age:</strong> <span data-age></span></li>
+                              <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> <span data-email></span></li>
+                           </ul>
+                        </div>
+                     </div>
+                    
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="skills" class="skills section-bg">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Skills</h2>
+               </div>
+               <div class="row skills-content" data-skills></div>
+            </div>
+         </section>
+         <section id="resume" class="resume">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Resume</h2>
+                  <p data-about></p>
+                  <p class="mt-4 text-center"><a class="pb-btn" xdownload href="resume.html">Download Resume</a></p>
+               </div>
+               <div class="row">
+                  <div class="col-lg-6">
+                     <h3 class="resume-title">Education</h3>
+                     <div data-education></div>
+                  </div>
+                  <div class="col-lg-6">
+                     <h3 class="resume-title">Professional Experience</h3>
+                     <div data-work></div>
+                  </div>
+               </div>
+            </div>
+         </section>
+         <section id="portfolio" class="portfolio section-bg">
+            <div class="container" data-aos="fade-up">
+               <div class="section-title">
+                  <h2>Portfolio</h2>
+                  <p>Here are a few design projects I've worked on recently.</p>
+               </div>
+               <div class="row" data-aos="fade-up" data-aos-delay="200" data-projects></div>
+            </div>
+         </section>
+      </main>
+      <footer id="footer" hidden>
+         <div class="container">
+            <h3 data-name></h3>            
+            <div class="social-links">
+               <!--<a target="_blank" data-social-email href="#" class="email"><i class="bx bx-envelope"></i></a>-->
+               <!--<a target="_blank" data-social-call href="#" class="skype"><i class="bx bx-phone-call"></i></a>-->
+               <!--<a target="_blank" data-social-skype href="#" class="skype"><i class="bx bxl-skype"></i></a>-->
+                <!--<a target="_blank" data-social-instagram href="#" class="instagram"><i class="bx bxl-instagram"></i></a>   -->
+               <!-- <a target="_blank" data-social-github href="#" class="github"><i class="bx bxl-github"></i></a>       -->
+               <!--<a target="_blank" data-social-linkedin href="#" class="linkedin"><i class="bx bxl-linkedin"></i></a>-->
+               <!-- <a target="_blank" data-social-whatsapp href="#" class="whatsapp"><i class="bx bxl-whatsapp"></i></a> -->
+            </div>
+            <div class="copyright">
+               &copy; All Rights Reserved
+            </div>
+         </div>
+      </footer>
+      <a href="#" class="back-to-top"><i class="bx bx-up-arrow-alt"></i></a>
+      <div id="preloader"></div>
+      <script src="data.js"></script>
+      <script src="assets/vendor/jquery/jquery.min.js"></script>
+      
+      <script>
+         function calculate_age(dob) {
+           var d = new Date(dob); 
+           var diff_ms = Date.now() - d.getTime();
+           var age_dt = new Date(diff_ms);          
+           return Math.abs(age_dt.getUTCFullYear() - 1970) + ' yrs';
+         }
+         function genSkills(arr) {
+            var h = '';
+            arr.map(function(v){
+                h+= `<div class="col-lg-6">
+                        <div class="progress">
+                           <span class="skill">`+v.title+` <i class="val">`+v.percentage+`%</i></span>
+                           <div class="progress-bar-wrap">
+                              <div class="progress-bar" role="progressbar" aria-valuenow="`+v.percentage+`" aria-valuemin="0" aria-valuemax="100"></div>
+                           </div>
+                        </div>
+                     </div>`
+            })
+            return h
+        }
+        
+        function getAgeinMonths(dateString) {
+                var now = new Date();
+                var today = new Date(now.getYear(),now.getMonth(),now.getDate());
+
+                var yearNow = now.getYear();
+                var monthNow = now.getMonth();
+                var dateNow = now.getDate();
+
+                var dob = new Date(dateString);
+
+                var yearDob = dob.getYear();
+                var monthDob = dob.getMonth();
+                var dateDob = dob.getDate();
+                var age = {};
+                var ageString = "";
+                var yearString = "";
+                var monthString = "";
+                var dayString = "";
+
+
+                yearAge = yearNow - yearDob;
+
+                if (monthNow >= monthDob)
+                    var monthAge = monthNow - monthDob;
+                else {
+                    yearAge--;
+                    var monthAge = 12 + monthNow -monthDob;
+                }
+
+                if (dateNow >= dateDob)
+                    var dateAge = dateNow - dateDob;
+                else {
+                    monthAge--;
+                    var dateAge = 31 + dateNow - dateDob;
+
+                    if (monthAge < 0) {
+                    monthAge = 11;
+                    yearAge--;
+                    }
+                }
+
+                age = {
+                    years: yearAge,
+                    months: monthAge,
+                    days: dateAge
+                    };
+
+                if ( age.years > 1 ) yearString = " Yrs";
+                else yearString = " Yr";
+                if ( age.months> 1 ) monthString = " Months";
+                else monthString = " Month";
+                if ( age.days > 1 ) dayString = "";
+                else dayString = "";
+
+
+                if ( (age.years > 0) && (age.months > 0) && (age.days > 0) )
+                    ageString = age.years + yearString + " " + age.months + monthString;
+                else if ( (age.years == 0) && (age.months == 0) && (age.days > 0) )
+                    ageString = "";
+                else if ( (age.years > 0) && (age.months == 0) && (age.days == 0) )
+                    ageString = age.years + yearString + "";
+                else if ( (age.years > 0) && (age.months > 0) && (age.days == 0) )
+                    ageString = age.years + yearString + " " + age.months + monthString + "";
+                else if ( (age.years == 0) && (age.months > 0) && (age.days > 0) )
+                    ageString = age.months + monthString;
+                else if ( (age.years > 0) && (age.months == 0) && (age.days > 0) )
+                    ageString = age.years + yearString;
+                else if ( (age.years == 0) && (age.months > 0) && (age.days == 0) )
+                    ageString = age.months + monthString + "";
+                else ageString = "";
+
+                return ageString;
+                }
+
+         function getAgeinMonths2(dateString,datestringEnd) {
+             
+                var now = new Date(datestringEnd);
+                var today = new Date(now.getYear(),now.getMonth(),now.getDate());
+
+                var yearNow = now.getYear();
+                var monthNow = now.getMonth();
+                var dateNow = now.getDate();
+
+                var dob = new Date(dateString);
+
+                var yearDob = dob.getYear();
+                var monthDob = dob.getMonth();
+                var dateDob = dob.getDate();
+                var age = {};
+                var ageString = "";
+                var yearString = "";
+                var monthString = "";
+                var dayString = "";
+
+
+                yearAge = yearNow - yearDob;
+
+                if (monthNow >= monthDob)
+                    var monthAge = monthNow - monthDob;
+                else {
+                    yearAge--;
+                    var monthAge = 12 + monthNow -monthDob;
+                }
+
+                if (dateNow >= dateDob)
+                    var dateAge = dateNow - dateDob;
+                else {
+                    monthAge--;
+                    var dateAge = 31 + dateNow - dateDob;
+
+                    if (monthAge < 0) {
+                    monthAge = 11;
+                    yearAge--;
+                    }
+                }
+
+                age = {
+                    years: yearAge,
+                    months: monthAge,
+                    days: dateAge
+                    };
+
+                if ( age.years > 1 ) yearString = " Yrs";
+                else yearString = " Yr";
+                if ( age.months> 1 ) monthString = " Months";
+                else monthString = " Month";
+                if ( age.days > 1 ) dayString = "";
+                else dayString = "";
+
+
+                if ( (age.years > 0) && (age.months > 0) && (age.days > 0) )
+                    ageString = age.years + yearString + " " + age.months + monthString;
+                else if ( (age.years == 0) && (age.months == 0) && (age.days > 0) )
+                    ageString = "";
+                else if ( (age.years > 0) && (age.months == 0) && (age.days == 0) )
+                    ageString = age.years + yearString + "";
+                else if ( (age.years > 0) && (age.months > 0) && (age.days == 0) )
+                    ageString = age.years + yearString + " " + age.months + monthString + "";
+                else if ( (age.years == 0) && (age.months > 0) && (age.days > 0) )
+                    ageString = age.months + monthString;
+                else if ( (age.years > 0) && (age.months == 0) && (age.days > 0) )
+                    ageString = age.years + yearString;
+                else if ( (age.years == 0) && (age.months > 0) && (age.days == 0) )
+                    ageString = age.months + monthString + "";
+                else ageString = "";
+
+                return ageString;
+                }
+
+
+                function genWork(arr) {
+            var  h = '';            
+            arr = arr.reverse()
+            arr.map(function(v){
+                if(v.date.relieving) {
+                    h+= `<li>
+                        <div class="li-title">`+v.company+`</div>
+                        <div class="li-desc">`+v.location+` - `+v.date.joining.split(' ')[1]+` `+v.date.joining.split(' ')[2]+` to `+v.date.relieving.split(' ')[1]+` `+v.date.relieving.split(' ')[2]+` (`+getAgeinMonths2(v.date.joining,v.date.relieving)+`)</div>
+                    </li>`
+                } else {
+                    h+= `<li>
+                        <div class="li-title">`+v.company+`</div>
+                        <div class="li-desc">`+v.location+` - `+v.date.joining.split(' ')[1]+` `+v.date.joining.split(' ')[2]+` to Now (`+getAgeinMonths(v.date.joining)+`) </div>
+                    </li>`
+                }
+                
+            })
+            return h;
+        }
+        
+        function genTech(arr) {
+            var  h = '';      
+            arr.map(function(v){
+                h+= `<i title="`+v+`" class="tech tech--`+v.toLowerCase()+`"></i>`;
+            })
+            return h;
+        } 
+        function genProjects(arr) {
+            var  h = '';            
+            arr = arr.reverse()
+            arr.map(function(v){
+              
+                if(!v.disabled) {
+                    h+= `<div class="col-xs-12 col-md-6">
+                        <div class="projects-li">
+                        <div class="li-title"><a target="_blank" href="`+v.url+`"/>`+v.title+`</a></div>
+                        <div class="li-desc"><small>Role : `+v.role+`</small></div>                        
+                        <div class="li-desc"><small>Organization : `+v.company+`</small></div>
+                        <div class="li-desc"><small>Technologies I used : `+genTech(v.tech)+`</small></div>
+                        </div>
+                    </div>`
+                }
+                
+            })
+            return h;
+        }
+        function genEdu(arr) {
+            var  h = '';            
+            arr = arr.reverse()
+            arr.map(function(v){
+                h+= `<div class="resume-item">
+                        <h4>`+v.title+`</h4>
+                        <h5>`+v.passingYear+`</h5>
+                        <p>`+v.university+`</p>
+                        <p hidden><small>`+Math.floor(v.percentage)+`%</small></p>
+                     </div>`;
+            })
+            return h;
+        }        
+        function genWork(arr) {
+            var  h = '';            
+            arr = arr.reverse()
+            arr.map(function(v){
+                if(v.date.relieving) {
+                    h+= `<div class="resume-item">
+                           <h4>`+v.title+`</h4>
+                           <h5>`+v.date.joining.split(' ')[1]+` `+v.date.joining.split(' ')[2]+` - `+v.date.relieving.split(' ')[1]+` `+v.date.relieving.split(' ')[2]+`</h5>
+                           <p>`+v.company+`, `+v.location+`</p>                           
+                           <p hidden><small>(`+getAgeinMonths2(v.date.joining,v.date.relieving)+`)</small></p>
+                        </div>`
+                } else {
+                    h+= `<div class="resume-item">
+                           <h4>`+v.title+`</h4>
+                           <h5>`+v.date.joining.split(' ')[1]+` `+v.date.joining.split(' ')[2]+` - Now</h5>
+                           <p>`+v.company+`, `+v.location+`</p>
+                           <p hidden><small>(`+getAgeinMonths(v.date.joining)+`)</small></p>
+                        </div>`
+                }
+                
+            })
+            return h;
+        }
+      </script>
+      <script>
+        $(function(){
+          genResume();
+        });
+        function genResume() { 
+            $(document).find('[data-name]').text(data.personal.fullName)
+            $(document).find('[data-occupation]').text(data.personal.occupation.split(',')[0])
+            $(document).find('[data-dob]').text(data.personal.dob)
+            // $(document).find('[data-phone]').text(data.contact.mobile)
+            $(document).find('[data-location]').text(data.contact.location)
+            $(document).find('[data-email]').text(data.contact.email)
+            $(document).find('[data-tagline]').text(data.personal.about_web)        
+            $(document).find('[data-age]').text(calculate_age(data.personal.dob))
+            $(document).find('[data-typed-items]').attr('data-typed-items',data.personal.occupation)
+            if ($('.typed').length) {
+                  var typed_strings = $(".typed").attr('data-typed-items');
+                  typed_strings = typed_strings.split(',')
+                //   typed_strings.unshift('Software Engineer')
+                  new Typed('.typed', {
+                     strings: typed_strings,
+                     loop: true,
+                     typeSpeed: 100,
+                     backSpeed: 50,
+                     backDelay: 2000
+                  });
+            }
+            $(document).find('[data-skills]').html(genSkills(data.skills))
+            $(document).find('[data-education]').html(genEdu(data.education))
+            $(document).find('[data-work]').html(genWork(data.work))
+            $(document).find('[data-projects]').html(genProjects(data.work_projects))
+            $('.skills-content').waypoint(function() {
+               $('.progress .progress-bar').each(function() {
+                  $(this).css("width", $(this).attr("aria-valuenow") + '%');
+               });
+            }, {
+               offset: '80%'
+            });
+            $(document).find('[data-social-skype]').attr('href',data.contact.skype)
+            $(document).find('[data-social-instagram]').attr('href',data.contact.instagram)
+            $(document).find('[data-social-github]').attr('href',data.contact.github)
+            $(document).find('[data-social-linkedin]').attr('href',data.contact.linkedin)
+            // $(document).find('[data-social-whatsapp]').attr('href',data.contact.whatsapp)
+            // $(document).find('[data-social-call]').attr('href','tel:'+data.contact.mobile)
+            $(document).find('[data-social-email]').attr('href','mailto:'+data.contact.email)
+            $(document).find('[data-about]').append(data.personal.about[0])      
+            $(document).find('[data-about]').append(' '+getAgeinMonths(data.work[(data.work.length-1)].date.joining)+' ')      
+            $(document).find('[data-about]').append(data.personal.about[1])   
+           $.getJSON("https://api.countapi.xyz/hit/ajaydodiya.tech/visits", function(response) {
+             console.log('visits', response.value);
+            });
+        }
+    </script>
+      <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+      <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+      <script src="assets/vendor/php-email-form/validate.js"></script>
+      <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+      <script src="assets/vendor/counterup/counterup.min.js"></script>
+      <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+      <script src="assets/vendor/venobox/venobox.min.js"></script>
+      <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+      <script src="assets/vendor/typed.js/typed.min.js"></script>
+      <script src="assets/vendor/aos/aos.js"></script>
+      <script src="assets/js/main.js"></script> 
+   </body>
+</html>

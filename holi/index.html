@@ -113,7 +113,7 @@
         <br>
         <p  style="font-size: 16px;font-weight: 600;"class="ranga animate__animated animate__flip">आपकी प्रतीक्षा में रतनपुरियंस मित्र मंडली </p>
         <script>  
-          
+            
             let fragmentIdentifier = window.location.hash;
             let cleanFragmentIdentifier = fragmentIdentifier.substring(1); // Remove the '#'                    
             let r = document.getElementById('r')
@@ -121,6 +121,8 @@
             decodedText = decodedText.replaceAll('_',' ')
             decodedText = decodedText.replaceAll('-',' ')
             r.innerHTML = decodedText
+            let titleTag = document.querySelector('title');
+            titleTag.innerHTML = 'होली निमंत्रण 🎉🪅🎨🎊🔫' + decodedText
         </script>
     </div>
     

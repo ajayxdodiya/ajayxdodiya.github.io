@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style/fonts.css">
+    <style>
+        * {
+            font-family: 'Google Sans';
+        }
+    </style>
+</head>
+<body contenteditable="true">
+    
+    
+<br>
+    <h1 id="heading">हिंदी  </h1>
+
+    <script>
+        function downloadAsPng() {
+            const heading = document.getElementById('heading');
+
+            // Create a new canvas element
+            const canvas = document.createElement('canvas');
+            const context = canvas.getContext('2d');
+
+           
+            canvas.width = heading.offsetWidth +200;
+            canvas.height = heading.offsetHeight + 200; // Adjust height to fit both headings
+
+            // Draw headings on the canvas
+            context.fillStyle = 'transparent'; // Set transparent background
+            context.fillRect(0, 0, canvas.width, canvas.height); // Fill with transparent background
+            context.font = 'bold 48px Google Sans'; // Set font properties
+            context.fillStyle = 'black'; // Set text color
+            context.fillText(heading.textContent, 0, 50); // Draw first heading
+
+
+            // Convert canvas to image
+            const dataURL = canvas.toDataURL('image/png');
+
+            // Create a temporary link element
+            const link = document.createElement('a');
+            link.download = 'headings.png'; // Set filename for the downloaded image
+            link.href = dataURL;
+
+            // Simulate a click on the link to trigger download
+            link.click();
+        }
+    </script>
+
+    <button onclick="downloadAsPng()">Download as PNG</button>
+
+</body>
+</html>

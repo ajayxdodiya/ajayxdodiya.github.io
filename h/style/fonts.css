@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 400;
+    src: url(Google+Sans_400_normal.eot); /* http://fonts.gstatic.com/l/font?kit=4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlj&skey=c30756b8cf584a60&v=v58 */
+    src: local('☺'),
+        url(Google+Sans_400_normal.eot?#iefix) format('embedded-opentype'), /* http://fonts.gstatic.com/l/font?kit=4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlj&skey=c30756b8cf584a60&v=v58 */
+        url(Google+Sans_400_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/googlesans/v58/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKln.woff2 */
+        url(Google+Sans_400_normal.woff) format('woff'), /* http://fonts.gstatic.com/l/font?kit=4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlh&skey=c30756b8cf584a60&v=v58 */
+        url(Google+Sans_400_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/googlesans/v58/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlirSjiEwI6.ttf */
+        url(Google+Sans_400_normal.svg#Google+Sans_400_normal) format('svg'); /* http://fonts.gstatic.com/l/font?kit=4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrwEIKlg&skey=c30756b8cf584a60&v=v58#GoogleSans */
+}
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 500;
+    src: url(Google+Sans_500_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Google+Sans_500_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Google+Sans_500_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/googlesans/v58/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKln.woff2 */
+        url(Google+Sans_500_normal.woff) format('woff'), /* http://fonts.gstatic.com/l/font?kit=4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKlh&skey=c30756b8cf584a60&v=v58 */
+        url(Google+Sans_500_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/googlesans/v58/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrw2IKlirSjiEwI6.ttf */
+        url(Google+Sans_500_normal.svg#Google+Sans_500_normal) format('svg'); /* {{svg-gf-url}} */
+}
+@font-face {
+    font-family: 'Google Sans';
+    font-style: normal;
+    font-weight: 700;
+    src: url(Google+Sans_700_normal.eot); /* {{embedded-opentype-gf-url}} */
+    src: local('☺'),
+        url(Google+Sans_700_normal.eot?#iefix) format('embedded-opentype'), /* {{embedded-opentype-gf-url}} */
+        url(Google+Sans_700_normal.woff2) format('woff2'), /* http://fonts.gstatic.com/s/googlesans/v58/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ6ln.woff2 */
+        url(Google+Sans_700_normal.woff) format('woff'), /* http://fonts.gstatic.com/l/font?kit=4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ6lh&skey=c30756b8cf584a60&v=v58 */
+        url(Google+Sans_700_normal.ttf) format('truetype'), /* http://fonts.gstatic.com/s/googlesans/v58/4Ua_rENHsxJlGDuGo1OIlJfC6l_24rlCK1Yo_Iqcsih3SAyH6cAwhX9RFD48TE63OOYKtrzjJ6lirSjiEwI6.ttf */
+        url(Google+Sans_700_normal.svg#Google+Sans_700_normal) format('svg'); /* {{svg-gf-url}} */
+}
